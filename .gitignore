@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Gradle
+/.gradle/
+/build/
+
+# IntelliJ IDEA
+/.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+/.vscode/
+
+# Sublime Text
+*.sublime-workspace
+
+# Vim
+Session.vim
+.netrwhist
+

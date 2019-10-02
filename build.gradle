@@ -1,0 +1,23 @@
+plugins {
+  id "java"
+}
+
+group = 'com.drypot'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+}
+
+test {
+  useJUnitPlatform()
+  testLogging {
+    events "passed", "skipped", "failed"
+    exceptionFormat = "full" // 실패한 매서드 이름을 덤프하게 만든다.
+  }
+}
